@@ -23,8 +23,14 @@ const MainContent = () => {
           <img src={image} alt='img' /> An &nbsp;<strong>IIT Delhi</strong>&nbsp; Alumini Initiative
         </span>
         <div className="hero-text">
+          <div className='pc1'>
           <strong><h1>Become an Expert in the <br /> field of <span className='hero-coloured-text'>Data Science <br /> with 6 courses</span></h1></strong>
           <p className='hero-innertext'>A specially crafted Tech Kickstarter, with <strong>5+ extensive online courses</strong>.</p>
+          </div>
+          <div className='mobile1'>
+          <strong><h1>Become an <br/> Expert in the <br /> field of <span className='hero-coloured-text'>Data Science <br /> with 6 courses</span></h1></strong>
+          <p className='hero-innertextmobi'>A specially crafted Tech Kickstarter, with <strong>5+ extensive online courses</strong>.</p>
+          </div>
           <div className='feature'>
             <span className='inner-feature'><img src={featureImage} alt='feature' />Personal Mentorship</span>
             <span className='inner-feature'><img src={featureImage} alt='feature' />Internship Assistance</span>
@@ -43,8 +49,10 @@ const MainContent = () => {
         <div className='stats-innermain'> <img src={statstudentproject} alt='' /><div className='stat-innerdata'><div>10K+ </div> <div className='stat-innerdata-type'>Student Projects</div></div></div>
       </section>
       <section className="course-curriculum">
-        <h4>DATASCIENCE COURSE LEARNING PATH</h4>
-        <h2><span>Data Science </span> Course Curriculum</h2>
+        <h4 className='course-pc'>DATASCIENCE COURSE LEARNING PATH</h4>
+        <h2 className='course-pc'><span>Data Science </span> Course Curriculum</h2>
+        <h4 className='course-mobile'>FULL STACK COURSE LEARNING PATH</h4>
+        <h2 className='course-mobile'><span>FULL STACK </span> Course Curriculum</h2>
         <div className='coursemain'>
         <div className='course'><CourseCard title="C++" content="Learn C++ for strong programming fundamentals." /></div>
         <div className='course'><CourseCard title="MERN Stack"  content="Master the MERN stack for high-demand projects."/></div>

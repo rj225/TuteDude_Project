@@ -1,54 +1,100 @@
 .course-card {
-    padding: 14px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    width: 1000px;
-  }
-  
-  .course-card-content{
+  padding: 14px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.course-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: baseline;
+}
+
+.course-card-content h3 {
+  color: black;
+  margin-bottom: 0px;
+  font-size: 28px;
+  font-weight: 600;
+  /* margin-bottom: 0px; */
+}
+.course-card-content p {
+  color: #83848d;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.course-card .button {
+  color: #b73bbe;
+  font-size: 20px;
+  font-weight: 500;
+  height: 70px;
+  display: flex;
+  padding: 0px 60px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9ebfc;
+  border: 1px solid #f9ebfc;
+  border-radius: 50px;
+}
+
+.course-card .button img {
+  margin: 0px;
+  margin-right: 8px;
+  padding: 0;
+}
+.course-card .button span {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 575.98px) {
+  .course-card {
     display: flex;
     flex-direction: column;
-    align-items: baseline;
-    justify-content: baseline;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    padding: 20px;
   }
 
-  .course-card-content h3{
-    color: black;
-    margin-bottom: 0px;
-    font-size: 28px;
-    font-weight: 600;
-    /* margin-bottom: 0px; */
+  .course-card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 7px 30px;
+    text-align: left;
   }
-  .course-card-content p{
-    color: #83848D;
+
+  .course-card h3 {
     font-size: 20px;
-    font-weight: 400;
-    margin-top: 8px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    text-align: left;
   }
 
-  .course-card .button{
-    color: #B73BBE;
+  .course-card p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.03em;
+    text-align: left;
+  }
+
+  .course-card .button {
+    color: #b73bbe;
     font-size: 20px;
     font-weight: 500;
-    height: 70px;
+    height: 56px;
     display: flex;
     padding: 0px 60px;
     align-items: center;
     justify-content: center;
-    background-color: #F9EBFC;
-    border: 1px solid #F9EBFC;
-    border-radius: 50px;
+    background-color: #f9ebfc;
+    border: 1px solid #f9ebfc;
+    border-radius: 15px;
   }
-
-  .course-card .button img{
-    margin: 0px;
-    margin-right: 8px;
-    padding: 0;
-  }
-  .course-card .button span{
-    margin: 0;
-    padding: 0;
-  }
-
-  
+}

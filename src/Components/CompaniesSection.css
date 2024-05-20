@@ -12,7 +12,7 @@
   line-height: 72px;
   font-weight: 700;
   text-align: center;
-  color:#374957;
+  color: #374957;
 }
 
 .companies-section h2 span {
@@ -42,4 +42,54 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.mobi-companies-section{
+  display: none;
+}
+.pc-companies-section{
+  display: block;
+}
+
+@media (max-width: 575.98px) {
+  .mobi-companies-section{
+    display: block;
+  }
+  .pc-companies-section{
+    display: none;
+  }
+  .companies-section {
+    padding-top: 15px;
+    background-color: #fffcea;
+    text-align: center;
+    width: 100vw;
+  }
+  .companies-section h2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: -0.03em;
+    text-align: center;
+  }
+  .companies-logos{
+    overflow: auto;
+  }
+
+  .logo{
+    display: none;
+  }
+  #logo1, #logo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 207px;
+    height: 103px;
+    gap: 10px;
+    border-radius: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    text-align: center;
+  }
 }

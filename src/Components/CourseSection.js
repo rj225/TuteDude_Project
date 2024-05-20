@@ -7,12 +7,22 @@ import step2 from './asset/steps (1).png'
 import step3 from './asset/steps (2).png'
 import bannerdesign from './asset/scribble final version-24.png'
 import step1img from './asset/image 533.png'
+import mobstep1 from './asset/Frame 1.png'
+import mobstep2 from './asset/Frame 2.png'
+import mobstep3 from './asset/Frame 3.png'
 
 const CourseSection = () => {
   return (
     <>
       <section className="course-section">
-        <h2>Don't miss out on this&nbsp;<span>limited-time &nbsp;</span></h2><h2><span>&nbsp; opportunity&nbsp;</span> to learn for&nbsp; <span>Free!</span></h2>
+        <h2 className='pc-course'>Don't miss out on this&nbsp;
+          <span>limited-time &nbsp;</span></h2>
+        <h2 className='pc-course'><span>&nbsp; opportunity&nbsp;</span> to learn for&nbsp; <span>Free!</span></h2>
+
+        <div className='mobileview-course'>
+          <h2 className='mobile-course'>Don't miss out on this</h2>
+          <h2 className='mobile-course'><span>limited-time opportunity</span></h2>
+          <h2 className='mobile-course'>to learn for&nbsp; <span>Free!</span></h2></div>
         <div className='course-section-banner'>
           <img src={bannerdesign} alt='' />
           <h2>100% Refund Offer 😎 </h2>
@@ -26,8 +36,13 @@ const CourseSection = () => {
           <div className='line'></div>
           <div className='box'></div>
           <div className='how-it-works-innermain'>
-            <div>
+            <div className='imgpc'>
               <img src={step1} alt='' />
+            </div>
+            <div className='imgmobile'>
+              <img src={mobstep1} alt='' />
+              <div className='mob-line'></div>
+              <div className='mob-box'></div>
             </div>
             <div>
               <div className="main">
@@ -42,14 +57,17 @@ const CourseSection = () => {
             </div>
           </div>
           <div className='how-it-works-innermain'>
-            <div>
+            <div className='imgpc'>
               <img src={step2} alt='' />
             </div>
+            <div className='imgmobile'>
+              <img src={mobstep2} alt='' />
+            </div>
             <div>
-            <div className="main">
+              <div className="main">
                 <h3 className='main-heading'>Step 2: Complete Course & Assignments within 2 Years!</h3>
                 <div className="main-img">
-                <div className='main-img-inner'>
+                  <div className='main-img-inner'>
                     <span className='imgreplace'>2</span>
                     <span className='imgtext'>years time from the date of enrollment</span>
                   </div>
@@ -61,11 +79,14 @@ const CourseSection = () => {
             </div>
           </div>
           <div className='how-it-works-innermain'>
-            <div>
+            <div className='imgpc'>
               <img src={step3} alt='' />
             </div>
+            <div className='imgmobile'>
+              <img src={mobstep3} alt='' />
+            </div>
             <div>
-            <div className="main">
+              <div className="main">
                 <h3 className='main-heading'>Step 3: Receive 100% Refund upon completion</h3>
                 <div className="main-img">
                   <div className='main-img-inner'>
@@ -79,6 +100,8 @@ const CourseSection = () => {
               </div>
             </div>
           </div>
+
+
         </div>
       </div>
     </>

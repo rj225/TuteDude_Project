@@ -1,0 +1,99 @@
+.opportunities-section {
+    margin: 100px 50px;
+    padding: 100px 0px;
+    /* background-color: #f1f1f1; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  .opportunities-section h2{
+      line-height: 72px;
+      font-size: 48px;
+      font-weight: 600;
+      color:#686972;
+  }
+
+  .opportunities-section h2 span{
+    color: #992E9D;
+  }
+
+  .opportunities-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* border: 2px solid rgb(176, 115, 115); */
+    width: 1184px;
+  }
+
+  .opportunities-content-inner:nth-child(1){
+    padding: 10px 30px;
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 510px;
+    height: 587px;
+    border-radius: 24px;
+    background-color: #F9EBFC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .opportunities-content-inner:nth-child(2){
+    padding: 10px 30px;
+    padding-bottom: 3px;
+    text-align: left;
+    /* border: 2px solid red; */
+    width: 510px;
+    height: 595px;
+    border-radius: 24px;
+    background-color: #FFF4C5;
+  }
+  .h31{
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #450D45;
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+
+  .h32{
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #481900;
+    margin-bottom: 10px;
+  }
+  .opportunities-content-inner p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #686972;
+  }
+  .featuree{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+  }
+
+  .inner-featuree{
+    color: #992E9D;
+    background-color: #F4D6F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+
+  .inner-featuree img{
+    margin-right: 4px;
+  }
+
+  

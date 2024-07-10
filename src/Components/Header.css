@@ -71,6 +71,13 @@ header {
 
   @media (max-width: 575.98px) {
 
+    header {
+      background: #ffffff;
+      padding:0 0;
+      width: 100vw;
+      overflow: hidden;
+    }
+    
     .navTop {
       display: flex;
       justify-content: space-between;

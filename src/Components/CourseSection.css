@@ -217,7 +217,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    /* border: 2px solid red; */
+    width: 80vw;
   }
   .mobile-course {
     font-size: 33px;

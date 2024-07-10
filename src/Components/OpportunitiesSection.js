@@ -20,7 +20,7 @@ const OpportunitiesSection = () => {
         <div className='opportunities-content-inner'>
           <h3 className='h32'>Bag Internship Opportunities!</h3>
           <p>With every course, we make you not only industry-ready but also help you crack your first internship.</p>
-          <img src={rightimg} alt='error' />
+          <img id='opportunities-image' src={rightimg} alt='error' />
         </div>
       </div>
     </section>

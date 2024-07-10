@@ -190,11 +190,31 @@
 }
 
 @media (max-width: 575.98px) {
+  main{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  .hero-Initiative {
+    width: 80vw;
+    padding: 19px 5px;
+    font-size: 15px;
+    border: 2px solid #ffdda4;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .hero {
     background: #ffffff;
     color: rgb(0, 0, 0);
     margin-top: 60px;
     padding: 20px 20px;
+    /* border: 2px solid rebeccapurple; */
+    width: 80vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -202,7 +222,7 @@
   }
 
   .mobile1 {
-    display: block;
+    /* border: 2px solid red; */
     font-size: 36px;
     line-height: 46px;
     display: flex;
@@ -211,13 +231,29 @@
     flex-direction: column;
   }
 
+  /* .mobile1 h1{
+    border: 2px solid red;
+    font-size: 36px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  } */
+
   .hero-text strong h1 {
     color: #595961;
+    /* border: 2px solid green; */
     font-size: 36px;
     line-height: 46px;
     font-weight: 700;
     margin-bottom: 0px;
     margin-top: 25px;
+    padding-left: 15%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
   }
 
   .pc1 {
@@ -230,10 +266,15 @@
     line-height: 24px;
     text-align: left;
     padding-left: 37px;
+    width: 85vw;
+    /* border: 2px solid red; */
   }
 
   .feature {
     flex-wrap: wrap;
+    /* border: 2px solid darkblue; */
+    width: 90vw;
+    margin-left: 25px;
   }
   .inner-feature {
     font-family: Poppins;
@@ -242,7 +283,7 @@
     line-height: 18px;
     letter-spacing: -0.03em;
     text-align: left;
-    width: 147px;
+    width: 40vw;
     height: 34px;
     /* gap: 20px; */
     padding: 5px;
@@ -259,6 +300,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 95vw;
+    /* border: 2px solid black; */
   }
 
   .inner-button {

@@ -51,6 +51,14 @@
   padding: 0;
 }
 
+.button:hover{
+  cursor: pointer;
+  background-color: #edbff8;
+  transition: all 0.4s linear;
+  transform: scale(1.05);
+  border: 2px solid #ce02fc;
+}
+
 @media (max-width: 575.98px) {
   .course-card {
     display: flex;

@@ -18,7 +18,7 @@ import statdoubtsolved from './asset/Question mark.png'
 const MainContent = () => {
   return (
     <main>
-      <section className="hero">
+      <section className="hero" data-aos="zoom-out" data-aos-offset="200">
         <span className='hero-Initiative'>
           <img src={image} alt='img' /> An &nbsp;<strong>IIT Delhi</strong>&nbsp; Alumini Initiative
         </span>
@@ -53,7 +53,7 @@ const MainContent = () => {
         <h2 className='course-pc'><span>Data Science </span> Course Curriculum</h2>
         <h4 className='course-mobile'>FULL STACK COURSE LEARNING PATH</h4>
         <h2 className='course-mobile'><span>FULL STACK </span> Course Curriculum</h2>
-        <div className='coursemain'>
+        <div className='coursemain' data-aos="flip-left" data-aos-offset="200">
         <div className='course'><CourseCard title="C++" content="Learn C++ for strong programming fundamentals." /></div>
         <div className='course'><CourseCard title="MERN Stack"  content="Master the MERN stack for high-demand projects."/></div>
         <div className='course'><CourseCard title="Data Structure & Algorithm" content="Excel in Data Structures and Algorithms for interview success." /></div>

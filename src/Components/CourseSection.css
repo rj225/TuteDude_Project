@@ -247,7 +247,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    gap: 12px;
+    gap: 0px;
     background: linear-gradient(to bottom, #9849ff, #841ee3);
     box-shadow: 0 16px 38px -10px #9849ff4b;
     position: relative;
@@ -349,7 +349,7 @@
 @media (max-width: 440px) {
 
   .main-heading {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 20px;
     font-weight: 600;
     color: #7f2781;
@@ -367,7 +367,7 @@
     align-items: center;
     justify-content: center;
     width: 50vw;
-    height: 20vh;
+    height: 10vh;
     gap: 8px;
     border-radius: 14px;
     border: 1px solid #e5e5e8;

@@ -12,52 +12,52 @@ const InternshipProgram = () => {
     <section className="internship-program">
       <h2>How does the Internship Program works?</h2>
       <div className="internship-steps1">
-        <div id='s1' className="step">
-          <span className="icon"><img src={internshipimage} alt='intenship'/> <span className='line1'><img src={line1} alt='error'/></span></span>
+        <div id='s1' className="step" data-aos="zoom-out-up">
+          <span className="icon"><img src={internshipimage} alt='intenship'/> <span className='line1' data-aos="zoom-in" data-aos-delay="500"><img src={line1} alt='error'/></span></span>
           <p>Learn from our structured pre-recorded courses made by experts to meet industry needs</p>
         </div>
-        <div className="step">
-          <span className="icon"><img src={internshipimage} alt='intenship'/><span className='line2'>
+        <div className="step" data-aos="zoom-out-down" data-offset="0">
+          <span className="icon"><img src={internshipimage} alt='intenship'/><span className='line2' data-aos="zoom-in" data-aos-delay="500">
             <img className='line2img' src={line2} alt='error'/></span>
-            <span className='line3'><img src={line3} alt='error'/></span></span>
+            <span className='line3' data-aos="zoom-in" data-aos-delay="500"><img src={line3} alt='error'/></span></span>
           <p>Personal mentors to guide and help you throughout your journey as a friend</p>
         </div>
-        <div className="step">
-          <span className="icon"><img src={internshipimage} alt='intenship'/><span className='line4'><img src={line4} alt='error'/></span></span>
+        <div className="step" data-aos="zoom-out-up">
+          <span className="icon"><img src={internshipimage} alt='intenship'/><span className='line4' data-aos="zoom-in" data-aos-delay="500"><img src={line4} alt='error'/></span></span>
           <p>Get guaranteed paid internships after completion of the program along with course completion certificates</p>
         </div>
         </div>
         <div className="internship-steps2">
-        <div className="step">
+        <div className="step" data-aos="zoom-out-down" data-offset="0">
           <span className="icon"><img src={internshipimage} alt='intenship'/></span>
           <p>1:1 live doubt solving support available throughout the day to clear your doubts instantly </p>
         </div>
-        <div className="step">
+        <div className="step" data-aos="zoom-out-up">
           <span className="icon"><img src={internshipimage} alt='intenship'/></span>
           <p>Build major projects which make your resume stand apart </p>
         </div>
       </div>
 
       <div className="internship-stepsmob">
-        <div className="step">
-          <span id='internship-stepsmob-icon1' className="icon"><img src={internshipimage} alt='intenship'/> <span className='intership-setp-line'></span> </span>
+        <div className="step" data-aos="zoom-out">
+          <span id='internship-stepsmob-icon1' className="icon"><img src={internshipimage} alt='intenship'/> <span className='intership-setp-line' data-aos="zoom-in" data-aos-delay="500"></span> </span>
           <p>Learn from our structured pre-recorded courses made by experts to meet industry needs</p>
         </div>
-        <div className="step">
+        <div className="step" data-aos="zoom-out">
           <span className="icon"><img src={internshipimage} alt='intenship'/></span>
           <p>1:1 live doubt solving support available throughout the day to clear your doubts instantly </p>
         </div>
-        <div className="step">
-          <span className="icon"><img src={internshipimage} alt='intenship'/><span className='line2'>
+        <div className="step" data-aos="zoom-out">
+          <span className="icon"><img src={internshipimage} alt='intenship'/><span className='line2' data-aos="zoom-in" data-aos-delay="500">
             <img className='line2img' src={line2} alt='error'/></span>
-            <span className='line3'><img src={line3} alt='error'/></span></span>
+            <span className='line3'data-aos="zoom-in" data-aos-delay="500"><img src={line3} alt='error'/></span></span>
           <p>Personal mentors to guide and help you throughout your journey as a friend</p>
         </div>
-        <div className="step">
+        <div className="step" data-aos="zoom-out">
           <span className="icon"><img src={internshipimage} alt='intenship'/></span>
           <p>Build major projects which make your resume stand apart </p>
         </div>
-        <div className="step">
+        <div className="step" data-aos="zoom-out">
           <span className="icon"><img src={internshipimage} alt='intenship'/><span className='line4'><img src={line4} alt='error'/></span></span>
           <p>Get guaranteed paid internships after completion of the program along with course completion certificates</p>
         </div>

@@ -23,7 +23,7 @@ const CourseSection = () => {
           <h2 className='mobile-course'>Don't miss out on this</h2>
           <h2 className='mobile-course'><span>limited-time opportunity</span></h2>
           <h2 className='mobile-course'>to learn for&nbsp; <span>Free!</span></h2></div>
-        <div className='course-section-banner'>
+        <div className='course-section-banner' data-aos="flip-down" data-offset="100">
           <img src={bannerdesign} alt='' />
           <h2>100% Refund Offer 😎 </h2>
           <div><span className='seat-left'>20 Seats Left</span><ProgressBar /></div>
@@ -45,7 +45,7 @@ const CourseSection = () => {
               <div className='mob-box'></div>
             </div>
             <div>
-              <div className="main">
+              <div className="main" data-aos="zoom-in-left">
                 <h3 className='main-heading'>Step 1 : Enroll into your favorite course for only ₹1,499</h3>
                 <div className="main-img">
                   <img src={step1img} alt="" />
@@ -64,7 +64,7 @@ const CourseSection = () => {
               <img src={mobstep2} alt='' />
             </div>
             <div>
-              <div className="main">
+              <div className="main" data-aos="zoom-in-up">
                 <h3 className='main-heading'>Step 2: Complete Course & Assignments within 2 Years!</h3>
                 <div className="main-img">
                   <div className='main-img-inner'>
@@ -86,7 +86,7 @@ const CourseSection = () => {
               <img src={mobstep3} alt='' />
             </div>
             <div>
-              <div className="main">
+              <div className="main" data-aos="zoom-in-right">
                 <h3 className='main-heading'>Step 3: Receive 100% Refund upon completion</h3>
                 <div className="main-img">
                   <div className='main-img-inner'>

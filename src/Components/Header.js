@@ -8,16 +8,16 @@ const Header = () => {
         <div className='navTop'>
           <div className="Logo">LOGO</div>
           <div>
-            <button>Login</button>
-            <button className='btnColoured'>Signup</button>
+            <button className='login'>Login</button>
+            <button className='signUp'>Signup</button>
           </div>
         </div>
         <div className='navBottom'>
           <ul>
             <li>Overview <div className='active'></div></li>
-            <li>Curriculum</li>
-            <li>Refund</li>
-            <li>Testimonials</li>
+            <li className='unactive'>Curriculum</li>
+            <li className='unactive'>Refund</li>
+            <li className='unactive'>Testimonials</li>
           </ul>
         </div>
       </nav>

@@ -73,7 +73,8 @@
 }
 
 .apply-button:hover {
-  background-color: #531c94;
+  transform: scale(1.05);
+  transition: all 0.5s;
 }
 
 .line1 {
